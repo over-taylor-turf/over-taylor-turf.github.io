@@ -28,6 +28,7 @@ Welcome to my dev portfolio website!
 My goal with this project is to highlight (improve and practice) my mobile-first design first and foremost. I want to put together a portfolio website that showcases some really good responsive design practices. I also want to keep it as clean as possible. I am using Matt Farley's website as inspiration for my "cleanliness" in design. I am currently intimidated by JavaScript so I also want to take this project as an opportunity to get more confident and comfortable. I Would like to do some intense work around animations for the welcome (home) section, my projects and skills if I have time. I would like it to be very interactive in the sense that as the user hovers, clicks, explores, the website responds. 
 
 Matt Farley Website [Link](https://mattfarley.ca/)
+Annie Bombanie Website [Link](https://anniebombanie.com/#contact)
 
 ## Wireframes ✅
 

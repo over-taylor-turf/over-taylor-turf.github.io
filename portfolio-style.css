@@ -1,0 +1,55 @@
+
+/* LAYOUT -- These borders will help me lay out my page!  */
+
+nav {
+    border: 1px solid green;   
+}
+
+.hello {
+    border: 1px solid purple;  
+}
+
+.about-me {
+    border: 1px solid blue;  
+}
+
+.projects {
+    border: 1px solid red;  
+}
+
+.skills {
+    border: 1px solid orange;  
+}
+
+.contact {
+    border: 1px solid yellow;  
+}
+
+footer {
+    border: 1px solid green;  
+}
+
+/* COLORS -- here are where my specific hex-codes go for this project. 
+color:
+color:
+color:
+color:
+color:
+*/
+
+/* STYLE -- These styles will help me actually style my page. */
+img {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+  }
+
+
+/* MOBILE / MAIN */
+
+/* TABLET */
+@media only screen and (min-width: 768px) {}
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {}
