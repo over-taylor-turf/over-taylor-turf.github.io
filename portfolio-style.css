@@ -1,33 +1,9 @@
 
-/* LAYOUT -- These borders will help me lay out my page!  */
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 
-nav {
-    border: 1px solid green;   
-}
-
-.hello {
-    border: 1px solid purple;  
-}
-
-.about-me {
-    border: 1px solid blue;  
-}
-
-.projects {
-    border: 1px solid red;  
-}
-
-.skills {
-    border: 1px solid orange;  
-}
-
-.contact {
-    border: 1px solid yellow;  
-}
-
-footer {
-    border: 1px solid green;  
-}
+}  
 
 /* COLORS -- here are where my specific hex-codes go for this project. 
 color:
@@ -37,12 +13,244 @@ color:
 color:
 */
 
-/* STYLE -- These styles will help me actually style my page. */
-img {
-    width:200px;
-    height:200px;
-    object-fit:cover;
-    border-radius:50%;
+
+
+/* GRID --  This is the mobile (base) grid styling of my page. */
+
+/* NAV BAR*/
+#nav {
+    display: flex;
+}
+
+    li {
+        list-style-type: none; 
+        text-align: center; 
+    }
+
+
+/* HOME SECTION */
+#hello {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+        .welcome, .one-liner {
+            align-self: center;
+        }
+
+        .welcome {
+            grid-column: 1 / 2; 
+            grid-row: 1 / 3;
+        }
+
+        .one-liner {
+            grid-column: 2 / 4; 
+            grid-row: 1 / 3;
+        }
+
+/* ABOUT-ME SECTION */
+#about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+        .name, .headshot {
+            align-self: center;
+        }
+
+        .name {
+            grid-column: 2 / 3; 
+            grid-row: 1 / 2;
+            text-align: center;
+            margin-right: 20%;
+            border: 2px solid green;
+        }
+
+        .headshot {
+            grid-column: 1 / 2; 
+            grid-row: 1 / 2;
+            margin-left: 20%;
+            border: 2px solid green;
+            width:250px;
+            height:250px;
+            object-fit:cover;
+            border-radius:50%;
+        }
+
+        .bio {
+            grid-column: 1 / 3; 
+            grid-row: 2 / 3;
+            align-self: stretch; 
+        }
+
+/* PROJECTS SECTION */
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+        .project1, .project2, .project3 {
+            text-align: center;
+            background-color: gray;
+            padding: 10px;
+        }
+
+        .project-title {
+            grid-column: 1 / 4; 
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+
+        .project1 {
+            grid-column: 1 / 2; 
+            grid-row: 2 / 3;
+        }
+
+        .project2 {
+            grid-column: 2 / 3; 
+            grid-row: 2 / 3;
+        }
+
+        .project3 {
+            grid-column: 3 / 4; 
+            grid-row: 2 / 3;
+        }
+
+/* SKILLS SECTION */
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+        .skills-title{
+            grid-column: 1 / 4; 
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+
+        /* SKILLS ICONS STYLING  */
+        #html {
+            grid-column: 1 / 2; 
+            grid-row: 2 / 3;
+        }
+
+        #css {
+            grid-column: 2 / 3; 
+            grid-row: 2 / 3;
+        }
+
+        #javascript {
+            grid-column: 3 / 4; 
+            grid-row: 2 / 3;
+        }
+
+        #node {
+            grid-column: 1 / 2; 
+            grid-row: 3 / 4;
+        }
+
+        #bootstrap {
+            grid-column: 2 / 3; 
+            grid-row: 3 / 4;
+        }
+
+        #git {
+            grid-column: 3 / 4; 
+            grid-row: 3 / 4;
+        }
+
+        #github {
+            grid-column: 1 / 2; 
+            grid-row: 4 / 5;
+        }
+
+        #vscode {
+            grid-column: 2 / 3; 
+            grid-row: 4 / 5;
+        }
+
+        #commandline {
+            grid-column: 3 / 4; 
+            grid-row: 4 / 5;
+        }
+
+        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+/* CONTACT SECTION */
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+        .contact-image {
+            grid-column: 1 / 2; 
+            grid-row: 1 / 3;
+            text-align: center;
+            justify-self: center;
+            padding-top: 15%;
+        }
+        .contact-title {
+            grid-column: 2 / 3; 
+            grid-row: 1 / 2;
+            text-align: center;
+            justify-self: center;
+        }
+
+        .contact-message {
+            grid-column: 2 / 3; 
+            grid-row: 2 / 3; 
+        }
+
+        .contact-form {
+            grid-column: 3 / 5; 
+            grid-row: 1 / 3; 
+        }
+
+/* FOOTER  */
+
+#footer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    margin-bottom: 20px;
+}
+
+        .signature, .location-date, .linkedin-link, .github-link {
+            text-align: center;
+        }
+
+        .signature {
+            grid-column: 1 / 3; 
+            grid-row: 1 / 2; 
+        }
+
+        .location-date {
+            grid-column: 1 / 3; 
+            grid-row: 2 / 3; 
+        }
+
+        .linkedin-link {
+            grid-column: 1 / 2; 
+            grid-row: 3 / 4; 
+        }
+
+        .github-link {
+            grid-column: 2 / 3; 
+            grid-row: 3 / 4; 
+        }
+
+/* ICONS */
+i.fab, i.fas {
+    color: hotpink;
+    margin-bottom: 5px;
   }
 
 

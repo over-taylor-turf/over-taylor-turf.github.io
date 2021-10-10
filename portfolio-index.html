@@ -3,58 +3,116 @@
 
 <head>
     <meta charset="UTF-8">
+    
+    <!-- I have no idea what this is: -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    
     <title>Taylor Polli Overturf, Developer</title>
+    
+    <!-- Google Fonts -->
+         <!-- Currently not working due to CSS Style Reset  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+    </style>
+
+    <!-- CSS Style Reset -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- My Style Sheet -->
     <link rel="stylesheet" href="portfolio-style.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/fc9b7adb22.js" crossorigin="anonymous"></script>
+    
 </head>
 
 
 <body>
+   <!-- NAV BAR -->
     <nav id="nav">
-        <ul>
+            <div id="hand-sparkles"><i class="fas fa-hand-sparkles fa-lg"></i></div>
+            <div id="hamburger-dropdown"><i class="fas fa-bars fa-lg"></i></div>
+        <div>
             <li>About Me</li>
             <li>My Projects</li>
             <li>My Skills</li>
             <li>Contact</li>
-        </ul>
-
+        </div>
     </nav>
     
     <div id="wrapper">
-        <div class="hello">Hello, new friend!</div>
-        <h1 class="hello">I'm Taylor. Here is some text where my one-line brand statement will go!</span></h1>
-        <h2 class="about-me">Taylor Polli Overturf</h2>
-        <img class="about-me" src="http://res.cloudinary.com/overturf/image/upload/v1633734866/P1033070_qs1l2w.jpg" alt="A photo of me, Taylor: a smiling woman wearing a plain, white t-shirt." width="500" height="600">
-        <p class="about-me">Here is some text where my longer biography will go, for example: I hold a master’s degree in Applied Linguistics from Columbia University. My background is in researching how the brain learns language, whether it be a language used to communicate with humans or computers. I am a front-end developer, who is passionate about responsive design and creativity in code. I currently live in Seattle, Washington with my dog, Uma Thurman.</p>
-        <h3 class="projects">Projects</h3>
-            <p class="projects">Fake Project 1</p>
-            <p class="projects">Fake Project 2</p>
-            <p class="projects">Fake Project 3</p>
-        <p class="skills">
-            <div class="skills">Skills</div>
-            <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li> 
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>     
-                <li>Git</li>  
-                <li>GitHub</li>
-                <li>VS Code</li>
-                <li>Command Line</li>                   
-            </ul>
-        </p>
-        <h3 class="contact">Contact</h3>
-        <p class="contact">Send me a message! Here is some text about why you might want to contact me.</p>
+
+        <!-- HOME SECTION -->
+        <div id="hello">
+            <p class="welcome">Hello, new friend!</p>
+            <h1 class="one-liner">I'm Taylor. Here is some text where my one-line brand statement will go!</span></h1>
+        </div>
+
+        <!-- ABOUT-ME SECTION -->
+        <div id="about-me">
+            <h2 class="name">Taylor Polli Overturf</h2>
+            <img class="headshot" src="http://res.cloudinary.com/overturf/image/upload/v1633734866/P1033070_qs1l2w.jpg" alt="A photo of me, Taylor: a smiling woman wearing a plain, white t-shirt." width="500" height="600">
+            <p class="bio">Here is some text where my longer biography will go, for example: I hold a master’s degree in Applied Linguistics from Columbia University. My background is in researching how the brain learns language, whether it be a language used to communicate with humans or computers. I am a front-end developer, who is passionate about responsive design and creativity in code. I currently live in Seattle, Washington with my dog, Uma Thurman.</p>
+        </div>
+
+        <!-- PROJECTS SECTION -->
+        <div id="projects">
+            <h3 class="project-title">Projects</h3>
+            <p class="project1">Fake Project 1</p>
+            <p class="project2">Fake Project 2</p>
+            <p class="project3">Fake Project 3</p>
+        </div>
+
+        <!-- SKILLS SECTION -->
+        <div id="skills">
+            <h3 class="skills-title">Skills</h3>
+
+                <span id="html"><i class="fab fa-html5 fa-2x"></i>
+                <li>HTML</li></span>
+
+                <span id="css"><i class="fab fa-css3-alt fa-2x"></i>
+                <li>CSS</li></span>
+
+                <span id="javascript"><i class="fab fa-js-square fa-2x"></i>
+                <li>JavaScript</li></span>
+
+                <span id="node"><i class="fab fa-node-js fa-2x"></i>
+                <li>Node JS</li></span>
+                
+                <span id="bootstrap"><i class="fab fa-bootstrap fa-2x"></i>
+                <li>Bootstrap</li></span>
+                
+                <span id="git"><i class="fas fa-code-branch fa-2x"></i>
+                <li>Git</li></span>
+                
+                <span id="github"><i class="fab fa-github fa-2x"></i>
+                <li>GitHub</li></span>
+                
+                <span id="vscode"><i class="fas fa-code fa-2x"></i>
+                <li>VS Code</li></span>
+                
+                <span id="commandline"><i class="fas fa-terminal fa-2x"></i>
+                <li>Command Line</li></span>
+
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div id="contact">
+            <span class="contact-image"><i class="fas fa-mail-bulk fa-4x"></i></span>
+            <h3 class="contact-title">Contact</h3>
+            <p class="contact-message">Send me a message! Here is some text about why you might want to contact me.</p>
+            <form class="contact-form">Placeholder for Contact Form</form>
+        </div>
+    
     </div>
     
-    
-    <footer id="footer">
-        <span>Designed & Coded by Taylor Polli Overturf | Seattle, Washington | October, 2021</span>
-        <span class="links"><a href="https://www.linkedin.com/in/tayloroverturf/" target="_blank">LinkedIn</a>
-                            <a href="https://github.com/over-taylor-turf" target="_blank">GitHub</a></span>
-    </footer>
+        <!-- FOOTER  -->
+        <footer id="footer">
+            <span class="signature">Designed & Coded by Taylor Polli Overturf </span>
+            <span class="location-date">Seattle, Washington | October, 2021</span>
+            <a class="linkedin-link" href="https://www.linkedin.com/in/tayloroverturf/" target="_blank"><i class="fab fa-linkedin fa-lg"></i>  LinkedIn</a>
+            <a class="github-link" href="https://github.com/over-taylor-turf" target="_blank"><i class="fab fa-github-square fa-lg"></i>  GitHub</a>
+        </footer>
     
     
     
