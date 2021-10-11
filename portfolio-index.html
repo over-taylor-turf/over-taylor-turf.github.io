@@ -16,7 +16,7 @@
     </style>
 
     <!-- CSS Style Reset -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     
     <!-- My Style Sheet -->
     <link rel="stylesheet" href="portfolio-style.css">
@@ -26,20 +26,21 @@
     
 </head>
 
-
 <body>
-   <!-- NAV BAR -->
-    <nav id="nav">
-            <div id="hand-sparkles"><i class="fas fa-hand-sparkles fa-lg"></i></div>
-            <div id="hamburger-dropdown"><i class="fas fa-bars fa-lg"></i></div>
-        <div>
-            <li>About Me</li>
-            <li>My Projects</li>
-            <li>My Skills</li>
-            <li>Contact</li>
+
+    <!-- NAV BAR / HAMBURGER -->
+    <header>
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-bars"></i></button>
+        <div class="dropdown-content">
+            <a href="#about-me">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </div>
-    </nav>
-    
+    </div>
+    </header>
+
     <div id="wrapper">
 
         <!-- HOME SECTION -->
@@ -117,7 +118,7 @@
     
     
     
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-    <script src="portfolio-main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="portfolio-main.js"></script>
 </body>
 </html>

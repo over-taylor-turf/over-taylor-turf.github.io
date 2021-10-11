@@ -13,19 +13,63 @@ color:
 color:
 */
 
-
-
 /* GRID --  This is the mobile (base) grid styling of my page. */
 
 /* NAV BAR*/
-#nav {
-    display: flex;
-}
 
-    li {
-        list-style-type: none; 
-        text-align: center; 
+/* Style: Hamburger Dropdown */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: right;
+    display: inline-block;
+    float: right;
+  }
+  
+  /* Dropdown Content (Default is 'display: none'). */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; 
+  }
+  
+  /* Style: links inside the dropdown */
+  .dropdown-content a {
+    color: hotpink;
+    margin: 6px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    background-color: honeydew;
+  }
+  
+  /* Change color of (About, Projects, Skills, Contact) links when cursor hovers */
+  .dropdown-content a:hover {
+      background-color: #f1f1f1
     }
+  
+  /* Show the dropdown menu when the cursor hovers */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the hamburger button when cursor hovers */
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
 
 
 /* HOME SECTION */

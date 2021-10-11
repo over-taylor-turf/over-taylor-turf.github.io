@@ -148,6 +148,11 @@ function reverse(string) {
  
  Use this section to list of all major issues encountered and their resolution.
 
+## Citations of Outside Sources / Help 
+
+For the hamburger dropdown menu, I followed W3Schools suggestions:
+[Link](https://www.w3schools.com/css/css_dropdowns.asp)
+
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
