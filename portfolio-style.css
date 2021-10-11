@@ -16,6 +16,7 @@ LIGHTEST PINK: #ffcfde
 GOLD: #d18519
 EGG YOLK: #f7b352
 OFF WHITE: #fff6e3
+SAND: #F2E2C6
 
 */
 
@@ -25,15 +26,18 @@ OFF WHITE: #fff6e3
 /* STYLE the links in the dropdown menu */
 .topnav {
     overflow: hidden;
-    background-color: #fff6e3;
+    background-color: #f7b352;
     position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
   }
 
 .topnav a {
-    color: white;
+    color: #fff6e3;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.25em;
     display: block;
   }
   
@@ -118,7 +122,6 @@ OFF WHITE: #fff6e3
         #hello-icons {
             grid-column: 1 / 2; 
             grid-row: 3 / 4;
-            /* justify-content: center; */
             align-items: stretch;
         }
 
@@ -164,7 +167,7 @@ OFF WHITE: #fff6e3
     grid-template-rows: 1fr;
     background-color:#ffcfde;
     color: black; 
-    line-height: 125%;
+    padding: 0 10px;
 }
 
         .bio {
@@ -172,14 +175,14 @@ OFF WHITE: #fff6e3
             grid-row: 1 / 2;
             justify-self: center;
             align-self: flex-start;
-            margin: 0px;
+            margin: 0;
             font-weight: 300; 
             border-top: 3px solid #B63666;
             border-bottom: 3px solid #B63666;
-            padding: 5px; 
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
             padding: 20px 10px;
+            line-height: 150%;
         }
 
 /* PROJECTS SECTION */
@@ -293,10 +296,12 @@ OFF WHITE: #fff6e3
             list-style-type: none;
             font-family: 'Poppins', sans-serif;
             font-weight: 400;
+            
         }
 
         li {
             font-weight: 400;
+            padding-top: 5px;
         }
 
 /* CONTACT SECTION */
@@ -394,14 +399,181 @@ OFF WHITE: #fff6e3
 /* ICONS */
 i.fab, i.fas {
     color: #B63666;
-    margin-bottom: 5px;
   }
 
 
-/* MOBILE / MAIN */
 
-/* TABLET */
-@media only screen and (min-width: 768px) {}
+  /* TABLET */
+@media only screen and (min-width: 768px) {
+
+    /* HOME SECTION */
+    #hello {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ffcfde;
+    color: black;
+    text-align: center;
+    }
+
+        .welcome {
+            font-size: 5em;
+        }
+
+        .one-liner {
+            padding-top: 25px;
+            padding-bottom: 40px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .my-name-is-taylor {
+            font-size: 1.75em;
+        }
+
+
+/* ABOUT-ME SECTION */
+        .headshot {
+            border: 5px solid #B63666;
+            width: 300px; 
+            height: 300px;
+            margin-top: 100px; 
+        }
+
+        .name {
+            font-size: 3.25em; 
+            padding: 10px 0; 
+        }
+
+        .bio {
+            font-weight: 400; 
+            font-size: 1em; 
+            padding: 20px 60px;
+            line-height: 175%;
+        }
+
+/* PROJECTS SECTION */
+        .project1, .project2, .project3 {
+            padding: 40px 10px 20px 10px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .project-title {
+            font-size: 60px;
+            margin: 60px 0;
+            letter-spacing: 2.5px; 
+        }
+
+/* SKILLS SECTION */
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+        .skills-title {
+            grid-column: 1 / 6; 
+            grid-row: 1 / 2;
+            font-size: 60px;
+            margin: 60px 0;
+            letter-spacing: 2.5px; 
+        }
+
+        /* SKILLS ICONS STYLING  */
+        #html {
+            grid-column: 1 / 2; 
+            grid-row: 2 / 3;
+        }
+
+        #css {
+            grid-column: 2 / 3; 
+            grid-row: 2 / 3;
+        }
+
+        #javascript {
+            grid-column: 3 / 4; 
+            grid-row: 2 / 3;
+        }
+
+        #node {
+            grid-column: 4 / 5; 
+            grid-row:  2 / 3;
+        }
+
+        #bootstrap {
+            grid-column: 5 / 6; 
+            grid-row:  2 / 3;
+        }
+
+        #git {
+            grid-column: 1 / 2; 
+            grid-row: 3 / 4;
+        }
+
+        #github {
+            grid-column: 2 / 3; 
+            grid-row: 3 / 4;
+        }
+
+        #vscode {
+            grid-column: 3 / 4; 
+            grid-row: 3 / 4;
+        }
+
+        #commandline {
+            grid-column: 4 / 5; 
+            grid-row: 3 / 4;
+        }
+
+        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 1.35em;
+        }
+
+    /* CONTACT SECTION */
+#contact {
+    padding-bottom: 60px; 
+    padding-right: 80px;
+}
+        .contact-image {
+            font-size: 1.35em; /* CONTACT SECTION */
+        }
+
+        .contact-title {
+            justify-self: left;  /* CONTACT SECTION */
+            font-size: 3em;  /* CONTACT SECTION */
+        }
+
+/* FOOTER  */
+
+#footer {
+    margin-bottom: 20px;
+    padding: 30px 0;
+}
+        .signature, .location-date, .linkedin-link, .github-link {
+            font-size: 1.15em;
+        }
+
+        .signature {
+            font-size: 1.2em;
+        }
+
+        .location-date {
+            font-size: 1.2em;
+        }
+
+        .linkedin-link {
+            margin-left: 200px;
+        }
+
+        .github-link {
+            margin-right: 200px;
+        }
+
+
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 992px) {}
