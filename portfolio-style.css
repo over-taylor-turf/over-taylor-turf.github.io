@@ -30,6 +30,9 @@ SAND: #F2E2C6
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    position: fixed;
+    top: 0; 
+    width: 100%;
 
   }
 
@@ -76,7 +79,7 @@ SAND: #F2E2C6
 #hello {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 1fr;
     background-color: #ffcfde;
     color: black;
     text-align: center;
@@ -92,7 +95,7 @@ SAND: #F2E2C6
             font-family: 'Permanent Marker', cursive;
             color: #B63666; 
             font-size: 3.5em;
-            padding-top: 20px;
+            padding-top: 40px;
         }
 
         .one-liner {
@@ -290,7 +293,11 @@ SAND: #F2E2C6
             grid-row: 4 / 5;
         }
 
-        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline {
+        #secret {
+            display: none;
+        }
+
+        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
             margin-top: 10px;
             margin-bottom: 10px;
             list-style-type: none;
@@ -397,20 +404,66 @@ SAND: #F2E2C6
           }
 
 /* ICONS */
-i.fab, i.fas {
-    color: #B63666;
+    i.fab, i.fas {
+        color: #B63666;
+    }
+
+  /* HIDE THE HOT DOG NAV BAR */
+    .big-nav {
+        display: none;
+    }
+
+
+
+
+  
+    /*  ! ! ! ! ! ! !  RESPONSIVE DESIGN BREAK POINT ! ! ! ! ! ! !  */
+  
+    /* TABLET */
+@media only screen and (min-width: 768px) {
+
+    /* HIDE THE HAMBURGER NAV BAR */
+
+    .topnav  {
+        display: none; 
+    }
+
+    /* STYLE THE HOT DOG NAV BAR */
+
+    .big-nav {
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+        font-size: 1.25em;
+        padding: 15px;
+        position: sticky;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        background-color: #0A3CC8;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+    }
+
+    .big-nav a {
+       float: right;
+       display: block;
+       text-align: center;
+       text-decoration: none;
+       padding-right: 30px;
+    }
+
+      /* STYLE the hamburger menu */
+  .big-nav a:hover {
+    background-color: #0A3CC8;
+    color: #d18519;
   }
 
-
-
-  /* TABLET */
-@media only screen and (min-width: 768px) {
 
     /* HOME SECTION */
     #hello {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
     background-color: #ffcfde;
     color: black;
     text-align: center;
@@ -526,7 +579,13 @@ i.fab, i.fas {
             grid-row: 3 / 4;
         }
 
-        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline {
+        #secret {
+            display: block;
+            grid-column: 5 / 6; 
+            grid-row: 3 / 4;
+        }
+
+        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
             margin-top: 5px;
             margin-bottom: 5px;
             font-size: 1.35em;
@@ -576,4 +635,85 @@ i.fab, i.fas {
 }
 
 /* DESKTOP */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    /* HOME SECTION */
+
+            .welcome {
+                font-size: 8em;
+                padding-top: 100px;
+            }
+    
+            .one-liner {
+                font-size: 25px;
+            }
+    
+            .my-name-is-taylor {
+                font-size: 3em;
+            }
+
+/* ABOUT-ME SECTION */
+        .headshot {
+            border: 4px solid #B63666;
+            width: 350px; 
+            height: 350px;
+            margin-top: 125px; 
+        }
+
+        .name {
+            font-size: 4.25em; 
+            padding: 20px 0; 
+        }
+
+        .bio {
+            font-weight: 400; 
+            font-size: 1.3em; 
+            padding: 40px 200px;
+            line-height: 160%;
+        }
+
+
+/* PROJECTS SECTION */
+
+.project-title {
+    font-size: 80px;
+    margin: 80px 0;
+    letter-spacing: 3px; 
+}
+
+/* SKILLS SECTION */
+
+.skills-title {
+    font-size: 80px;
+    margin: 80px 0;
+    letter-spacing: 3px; 
+}
+
+#html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
+    font-size: 1.75em;
+}
+
+
+/* FOOTER SECTION */
+
+        .signature, .location-date, .linkedin-link, .github-link {
+            font-size: 1.5em;
+        }
+
+        .signature {
+            font-size: 1.6em;
+        }
+
+        .location-date {
+            font-size: 1.6em;
+        }
+
+        .linkedin-link {
+            margin-left: 200px;
+        }
+
+        .github-link {
+            margin-right: 200px;
+        }
+
+}
