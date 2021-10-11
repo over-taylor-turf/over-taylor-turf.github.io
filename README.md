@@ -147,12 +147,51 @@ function reverse(string) {
  Will do in the future. 
  
  Use this section to list of all major issues encountered and their resolution.
+ 
+ #### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
+
+
 
 ## Citations of Outside Sources / Help 
 
-For the hamburger dropdown menu, I followed W3Schools suggestions:
-[Link](https://www.w3schools.com/css/css_dropdowns.asp)
+## Case 1: Hamburger Dropdown Menu
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+For the hamburger dropdown menu, I followed W3Schools suggestions:
+[Link](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+
+And, I also found this StackOverflow article helpful: 
+[Link](https://stackoverflow.com/questions/1291942/what-does-javascriptvoid0-mean)
+
+I also learned after some research online that the jQuery .toggle() function is actually toggling between the ```display: none``` and ```display: block```. 
+```
+.topnav #myLinks {
+  display: none;
+}
+```
+Because of this, I decided to use the function: 
+```
+$('.icon').on('click', function(event){
+  event.preventDefault();
+  $('.topnav #myLinks').toggle();
+});
+```
+
+instead of W3Schools suggestion on their 'Mobile NavBar' page.
+```
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+```
+
+I tried to experiment with the hamburger navigation as a ```<button>``` instead of a ```<a>```, but I found that the styling because much worse due to the default styling of buttons, so I abandoned this plan! 
+
+```
+<a href="#" class="icon"><i class="fa fa-bars"></i></a>
+```

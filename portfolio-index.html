@@ -12,7 +12,11 @@
     <!-- Google Fonts -->
          <!-- Currently not working due to CSS Style Reset  -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+    </style>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
     </style>
 
     <!-- CSS Style Reset -->
@@ -28,18 +32,19 @@
 
 <body>
 
-    <!-- NAV BAR / HAMBURGER -->
-    <header>
-    <div class="dropdown">
-        <button class="dropbtn"><i class="fa fa-bars"></i></button>
-        <div class="dropdown-content">
-            <a href="#about-me">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#home" class="active"><i class="fas fa-laptop-code fa-2x"></i></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#about-me">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
     </div>
-    </header>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="#" class="icon"><i class="fa fa-bars"></i></a>
+</div>
 
     <div id="wrapper">
 
@@ -51,8 +56,10 @@
 
         <!-- ABOUT-ME SECTION -->
         <div id="about-me">
-            <h2 class="name">Taylor Polli Overturf</h2>
             <img class="headshot" src="http://res.cloudinary.com/overturf/image/upload/v1633734866/P1033070_qs1l2w.jpg" alt="A photo of me, Taylor: a smiling woman wearing a plain, white t-shirt." width="500" height="600">
+            <h2 class="name">Taylor Polli Overturf</h2>
+        </div>
+        <div id="bio">
             <p class="bio">Here is some text where my longer biography will go, for example: I hold a master’s degree in Applied Linguistics from Columbia University. My background is in researching how the brain learns language, whether it be a language used to communicate with humans or computers. I am a front-end developer, who is passionate about responsive design and creativity in code. I currently live in Seattle, Washington with my dog, Uma Thurman.</p>
         </div>
 
@@ -109,16 +116,14 @@
     
         <!-- FOOTER  -->
         <footer id="footer">
-            <span class="signature">Designed & Coded by Taylor Polli Overturf </span>
+            <span class="signature">Designed & Coded with <i class="fas fa-heart"></i> by Taylor Polli Overturf </span>
             <span class="location-date">Seattle, Washington | October, 2021</span>
             <a class="linkedin-link" href="https://www.linkedin.com/in/tayloroverturf/" target="_blank"><i class="fab fa-linkedin fa-lg"></i>  LinkedIn</a>
             <a class="github-link" href="https://github.com/over-taylor-turf" target="_blank"><i class="fab fa-github-square fa-lg"></i>  GitHub</a>
         </footer>
     
     
-    
-    
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="portfolio-main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="portfolio-script.js"></script>
 </body>
 </html>
