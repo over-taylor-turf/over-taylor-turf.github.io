@@ -323,7 +323,7 @@ SAND: #F2E2C6
             text-align: center;
             justify-self: center;
             font-family: 'Permanent Marker', cursive;
-            font-size: 2.75em;
+            font-size: 3.5em;
             color: #B63666; 
             padding: 45px 0; 
         }
@@ -608,19 +608,22 @@ SAND: #F2E2C6
         display: grid;
         grid-template-columns: 1fr 3fr;
         grid-template-rows: 1fr;
-        padding-top: 0px;
+        padding-top: 30px;
     }
     
             .contact-title {
                 grid-column: 1 / 2; 
                 grid-row: 1 / 2; 
                 writing-mode: vertical-lr;
-                font-size: 4em;
+                font-size: 5em;
+                text-align: left;
             }
     
             .contact-form {
                 grid-column: 2 / 3; 
                 grid-row: 1 / 2;
+                margin-right: 30px;
+                margin-bottom: 30px;
             }
     
             button {

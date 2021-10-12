@@ -8,15 +8,15 @@ Welcome to my dev portfolio website!
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Friday, October 8th: ⭐️ Complete Project Worksheet! | Incomplete
-|Day 1| Friday, October 8th: ⭐️ Explore Examples, Get Ideas, Wireframe, create Time-Priority Matrix using MVP's, create Functional Compoenents for MVP's, complete this Project Schedule for additional days. | Incomplete ❌
-|Day 1| Friday, October 8th: ⭐️ Start writing out very basic HTML as placeholder text. | Incomplete ❌
-|Day 1| Friday, October 8th: ⭐️ Push a commit to GitHub for the first time on my project! | Incomplete ❌
-|Day 2| Monday, October 11th: CSS: ⭐️ Add classes and ID's based on intended style and functionality.  | Incomplete ❌
-|Day 2| Monday, October 11th: CSS: ⭐️ Very basic CSS styles.  | Incomplete ❌
-|Day 3| Tuesday, October 12th: CSS: ⭐️ Start responsive Desktop view edits.  | Incomplete ❌
-|Day 3| Tuesday, October 12th: ⭐️ Meet with Zakiya to help refine personal brand statement and short bio, included these items in HTML. | Incomplete ❌
-|Day 4| Wednesday, October 13th: ⭐️ Start jQuery/JavaScript animation work. | Incomplete ❌
+|Day 1| Friday, October 8th: ⭐️ Complete Project Worksheet! | Complete ✅
+|Day 1| Friday, October 8th: ⭐️ Explore Examples, Get Ideas, Wireframe, create Time-Priority Matrix using MVP's, create Functional Compoenents for MVP's, complete this Project Schedule for additional days. | Complete ✅
+|Day 1| Friday, October 8th: ⭐️ Start writing out very basic HTML as placeholder text. | Complete ✅
+|Day 1| Friday, October 8th: ⭐️ Push a commit to GitHub for the first time on my project! | Complete ✅
+|Day 2| Monday, October 11th: CSS: ⭐️ Add classes and ID's based on intended style and functionality.  | Complete ✅
+|Day 2| Monday, October 11th: CSS: ⭐️ Very basic CSS styles.  | Complete ✅
+|Day 3| Tuesday, October 12th: CSS: ⭐️ Start responsive Desktop view edits.  | Complete ✅
+|Day 3| Tuesday, October 12th: ⭐️ Meet with Zakiya to help refine personal brand statement and short bio, included these items in HTML. | Complete ✅
+|Day 4| Wednesday, October 13th: ⭐️ Start jQuery/JavaScript animation work. | Complete ✅
 |Day 4| Wednesday, October 13th: ⭐️ Add in projects to Projects section. | Incomplete ❌
 |Day 4| Wednesday, October 13th: ⭐️ Start Carousel work. | Incomplete ❌
 |Day 5| Thursday, October 14th: ⭐️ Troubleshoot Carousel and animation work.  | Incomplete ❌
@@ -48,19 +48,19 @@ Time/Priority Matrix: [Link](https://res.cloudinary.com/overturf/image/upload/v1
 
 |  Letter | Item | MVP or Post-MVP?
 |---|---| ---|
-|A| Hamburger Navigation Bar | MVP 🥊
-|B| Animations on Welcome Message| MVP 🥊
-|C| CSS Page Layout| MVP 🥊
+|A| Hamburger Navigation Bar | MVP 🥊 ✅
+|B| Animations on Welcome Message| MVP 🥊 ✅
+|C| CSS Page Layout| MVP 🥊 ✅
 |D| Linking all files, understanding GitHub... | MVP 🥊
-|E| HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer| MVP 🥊
-|F| Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section| Post-MVP 🤞
+|E| HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer| MVP 🥊 ✅
+|F| Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section| Post-MVP 🤞 ✅
 |G| Projects: Get projects organized, choose a few to include in site. | MVP 🥊
 |H| Carousel Style Projects Display| Post-MVP 🤞
 |I| Contact Form Functionality | Post-MVP 🤞
-|J| Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills | Post-MVP 🤞
-|K| Insert photo in About Me section!| Post-MVP 🤞
-|L| Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design).| MVP 🥊
-|M| Literally just getting started and doing this worksheet and planning and thinking... | MVP 🥊
+|J| Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills | Post-MVP 🤞 ✅
+|K| Insert photo in About Me section!| Post-MVP 🤞 ✅
+|L| Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design).| MVP 🥊 ✅
+|M| Literally just getting started and doing this worksheet and planning and thinking... | MVP 🥊 ✅
 
 Total Time Estimate: About 38 hours 
 
@@ -70,43 +70,41 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP Items ✅
 
-- Hamburger Navigation Bar
-- Animations on Welcome Message
-- CSS Page Layout
+- Hamburger Navigation Bar ✅
+- Animations on Welcome Message ✅
+- CSS Page Layout ✅
 - Linking all files, understanding GitHub... 
-- HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer
+- HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer ✅
 - Projects: Get projects organized, choose a few to include in site.
-- Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design).
-- Literally just getting started and doing this worksheet and planning and thinking...
+- Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design). ✅
+- Literally just getting started and doing this worksheet and planning and thinking... ✅
 
 #### PostMVP Items ✅
 
-- Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section
+- Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section ✅
 - Carousel Style Projects Display
 - Contact Form Functionality
-- Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills
-- Insert photo in About Me section!
+- Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills ✅
+- Insert photo in About Me section! ✅
 
 ## Functional Components ✅
 
 #### MVP ✅
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger Navigation Bar | A | 3hr | hr |
-| Regular Navigation Bar | A | 1hr | hr |
-| Hamburger Navigation Bar | A | 1hr | hr |
-| HTML: Home | E | 30mins | hr |
-| HTML: About Me | E | 1hr | hr |
-| HTML: Skills | E | 30mins | hr |
-| HTML: Project | E | 30mins | hr |
+| Hamburger Navigation Bar | A | 3hr | 5hr ✅|
+| Regular Navigation Bar | A | 1hr | 3hr ✅|
+| HTML: Home | E | 30mins | 1hr ✅|
+| HTML: About Me | E | 1hr | 1hr ✅ |
+| HTML: Skills | E | 30mins | 1hr ✅ |
+| HTML: Project | E | 30mins | 1hr ✅ |
 | HTML: Contact Form | E | 1.5hr | hr |
-| HTML: Footer | E | 30mins | hr |
+| HTML: Footer | E | 30mins | 1hr ✅ |
 | CSS: Overall Design | C | 4hrs | hr |
-| CSS: Classes & ID's | C | 1hr | hr |
-| CSS: Grid | C | 4hrs | hr |
-| CSS: Desktop View | C | 3hrs | hr |
-| Animations: Welcome Section (Hove, Expand)| B | 2hrs | hr |
-| Animations: Projects Section (Hover, Shake)| B | 2hrs | hr |
+| CSS: Classes & ID's | C | 1hr | 1hr ✅ |
+| CSS: Grid | C | 4hrs | 3hrs ✅ |
+| CSS: Tablet & Desktop View | C | 3hrs | 4hrs ✅ |
+| Animations | B | 2hrs | 3hr ✅ |
 | Projects: Decide on assignments to include. | G | 2hrs | hr |
 | Projects: Update projects. | G | 3hrs | hr |
 | Projects: Link/include projects in site. | G | 2hrs | hr |
@@ -115,14 +113,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP ✅
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Animations: Skills Section (Hover, Shake)| B | 2hrs | hr |
 | Carousel Style| H | 3hrs | hr |
 | Contact Form Functionality | I | 3hrs | hr |
-| Icons: find icons I want to use! | F | 1hr | hr |
-| Icons: add to nav bar. | F | 30mins | hr |
-| Icons: add to contact form. | F | 30mins | hr |
-| Icons: add to skills section. | F | 2hrs | hr |
-| Photo in About Me. | K | 30mins | hr |
+| Icons: find icons I want to use! | F | 1hr | 1hr ✅ |
+| Icons: add to nav bar. | F | 30mins | 1hr ✅ |
+| Icons: add to skills section. | F | 2hrs | 2hrs ✅ |
+| Photo in About Me. | K | 30mins | 1hr ✅ |
 
 ## Additional Libraries ✅
 
@@ -195,3 +191,8 @@ I tried to experiment with the hamburger navigation as a ```<button>``` instead 
 ```
 <a href="#" class="icon"><i class="fa fa-bars"></i></a>
 ```
+
+## Case 2: Understanding Forms
+
+For the contact form, I followed W3Schools suggestions as far as HTML elements:
+[Link](https://www.w3schools.com/howto/howto_css_contact_form.asp)
