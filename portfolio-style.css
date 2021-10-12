@@ -191,15 +191,14 @@ SAND: #F2E2C6
 /* PROJECTS SECTION */
 #projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
     background-color: #F2E2C6;
     padding-top: 30px;
 }
 
         .project1, .project2, .project3 {
             text-align: center;
-            background-color:#f7b352;
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
@@ -207,27 +206,45 @@ SAND: #F2E2C6
         }
 
         .project-title {
-            grid-column: 1 / 4; 
+            grid-column: 1 / 2; 
             grid-row: 1 / 2;
             text-align: center;
             font-family: 'Bebas Neue', cursive;
-            font-size: 40px;
+            font-size: 4em;
             margin: 40px 0; 
+            color: #0A3CC8;
+        }
+
+        .project-title:hover {
+            color:#B63666; 
         }
 
         .project1 {
             grid-column: 1 / 2; 
             grid-row: 2 / 3;
+            font-weight: 500;
+            font-size: 2em; 
+            color: #0A3CC8;
         }
 
         .project2 {
-            grid-column: 2 / 3; 
-            grid-row: 2 / 3;
+            grid-column: 1 / 2; 
+            grid-row: 3 / 4;
         }
 
         .project3 {
-            grid-column: 3 / 4; 
-            grid-row: 2 / 3;
+            grid-column: 1 / 2; 
+            grid-row: 4 / 5;
+        }
+
+        .descriptiontext {
+            font-size: 0.5em;
+            color: black;
+            font-weight: 300;
+            text-align: left;
+            line-height: 150%;
+            padding-top: 10px;
+
         }
 
 /* SKILLS SECTION */
@@ -245,8 +262,13 @@ SAND: #F2E2C6
             grid-row: 1 / 2;
             text-align: center;
             font-family: 'Bebas Neue', cursive;
-            font-size: 40px;
+            font-size: 4em;
             margin: 40px 0; 
+            color:#B63666;
+        }
+
+        .skills-title:hover {
+            color: #0A3CC8; 
         }
 
         /* SKILLS ICONS STYLING  */
@@ -255,49 +277,89 @@ SAND: #F2E2C6
             grid-row: 2 / 3;
         }
 
+                #html:hover, .fa-html5:hover {
+                    color: #0A3CC8;
+                }
+
         #css {
             grid-column: 2 / 3; 
             grid-row: 2 / 3;
         }
+
+                #css:hover, .fa-css3-alt:hover {
+                    color: #0A3CC8;
+                }
 
         #javascript {
             grid-column: 3 / 4; 
             grid-row: 2 / 3;
         }
 
+                #javascript:hover, .fa-js-square:hover {
+                    color: #0A3CC8;
+                }
+
         #node {
             grid-column: 1 / 2; 
             grid-row: 3 / 4;
         }
+
+                #node:hover, .fa-node-js:hover {
+                    color: #0A3CC8;
+                }
 
         #bootstrap {
             grid-column: 2 / 3; 
             grid-row: 3 / 4;
         }
 
+                #bootstrap:hover, .fa-bootstrap:hover {
+                    color: #0A3CC8;
+                }
+
         #git {
             grid-column: 3 / 4; 
             grid-row: 3 / 4;
         }
+
+                #git:hover, .fa-code-branch:hover {
+                    color: #0A3CC8;
+                }
 
         #github {
             grid-column: 1 / 2; 
             grid-row: 4 / 5;
         }
 
+                #github:hover, .fa-github:hover {
+                    color: #0A3CC8;
+                }
+
         #vscode {
             grid-column: 2 / 3; 
             grid-row: 4 / 5;
         }
+
+                #vscode:hover, .fa-code:hover {
+                    color: #0A3CC8;
+                }
 
         #commandline {
             grid-column: 3 / 4; 
             grid-row: 4 / 5;
         }
 
+                #commandline:hover, .fa-terminal:hover {
+                    color: #0A3CC8;
+                }
+
         #secret {
             display: none;
         }
+
+                #secret:hover, .fa-comment-dots:hover {
+                    color: #0A3CC8;
+                }
 
         #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
             margin-top: 10px;
