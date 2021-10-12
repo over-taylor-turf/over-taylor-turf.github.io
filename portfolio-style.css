@@ -72,7 +72,6 @@ SAND: #F2E2C6
   }
 
 
-
 /* GRID --  This is the mobile (base) grid styling of my page. */
 
 /* HOME SECTION */
@@ -136,6 +135,7 @@ SAND: #F2E2C6
     background-color: #F2E2C6;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    padding-top: 30px;
 }
 
         .headshot {
@@ -194,6 +194,7 @@ SAND: #F2E2C6
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #F2E2C6;
+    padding-top: 30px;
 }
 
         .project1, .project2, .project3 {
@@ -236,6 +237,7 @@ SAND: #F2E2C6
     grid-template-rows: 1fr 1fr 1fr 1fr;
     text-align: center;
     background-color: #ffcfde;
+    padding-top: 30px;
 }
 
         .skills-title {
@@ -313,29 +315,17 @@ SAND: #F2E2C6
 
 /* CONTACT SECTION */
 #contact {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
     background-color: #F2E2C6;
-    padding: 10px; 
+    padding-top: 30px;
 }
-        .contact-image {
-            grid-column: 1 / 2; 
-            grid-row: 1 / 2;
-            text-align: center;
-            justify-self: center;
-            padding-top: 15%;
-            align-self: center;
-        }
+
         .contact-title {
-            grid-column: 2 / 3; 
-            grid-row: 1 / 2;
             text-align: center;
             justify-self: center;
             font-family: 'Permanent Marker', cursive;
-            font-size: 2.5em;
+            font-size: 2.75em;
             color: #B63666; 
-            margin: 20px 0; 
+            padding: 45px 0; 
         }
 
         .contact-form {
@@ -351,47 +341,21 @@ SAND: #F2E2C6
             font-size: 16px;
             border: 2px solid #B63666;
             background-color: #e86892;
-        }
-
-        .form-container {
-            /* display: flex; 
-            flex-direction: column; */
-            /* grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr 3fr;  */
-        }
-
-        .form-name {
-            /* flex-direction: column; */
-            /* grid-column: 1 / 3;
-            grid-row: 1 / 2; */
-        }
-
-        .form-email {
-            /* grid-column: 1 / 3;
-            grid-row: 2 / 3; */
-        }
-
-        .form-message {
-            /* grid-column: 1 / 3;
-            grid-row: 3 / 4; */
+            border-radius: 5px;
+            padding: 5px;
         }
 
         input[type=text], select, textarea {
-            width: 100%; /* Full width */
-            padding: 12px; /* Some padding */ 
-            border: 1px solid #ccc; /* Gray border */
-            border-radius: 4px; /* Rounded borders */
-            box-sizing: border-box; /* Make sure that padding and width stays in place */
-            margin-top: 6px; /* Add a top margin */
-            margin-bottom: 16px; /* Bottom margin */
-            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+            width: 99%;
+            padding: 12px;
+            border: 1px solid #B63666;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 10px;
           }
 
-          input [type="submit"] {
-              width: 50%;
-              border: 1px solid #B63666;
-              box-sizing: border-box; 
-          }
+
 
 
 /* FOOTER  */
@@ -639,18 +603,33 @@ SAND: #F2E2C6
         }
 
     /* CONTACT SECTION */
-#contact {
-    padding-bottom: 60px; 
-    padding-right: 80px;
-}
-        .contact-image {
-            font-size: 1.35em; /* CONTACT SECTION */
-        }
 
-        .contact-title {
-            justify-self: left;  /* CONTACT SECTION */
-            font-size: 3em;  /* CONTACT SECTION */
-        }
+    #contact {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+        padding-top: 0px;
+    }
+    
+            .contact-title {
+                grid-column: 1 / 2; 
+                grid-row: 1 / 2; 
+                writing-mode: vertical-lr;
+                font-size: 4em;
+            }
+    
+            .contact-form {
+                grid-column: 2 / 3; 
+                grid-row: 1 / 2;
+            }
+    
+            button {
+            }
+    
+            input[type=text], select, textarea {
+                width: 100%;     /* ! */
+              }
+    
 
 /* FOOTER  */
 
@@ -701,9 +680,7 @@ SAND: #F2E2C6
 /* ABOUT-ME SECTION */
         .headshot {
             border: 4px solid #B63666;
-            width: 350px; 
-            height: 350px;
-            margin-top: 125px; 
+            /* margin-top: 125px;  */
         }
 
         .name {

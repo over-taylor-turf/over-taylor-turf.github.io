@@ -2,22 +2,18 @@
 
   // This function is to toggle the hamburger dropdown menu when clicked. 
         $('.icon').on('click', function(event){
-          event.preventDefault();
-          $('.topnav #myLinks').toggle();
+          $('#myLinks').toggle();
         });
 
-
-  // This function should hide the hamburger dropdown once a selection is made... 
-  // How can I get this to work? 
-      // $('.aboutNav').on('click', function(event){
-      //   event.preventDefault();
-      //   $('.topnav #myLinks').hide();
-      // });
+        $('#myLinks').on('click', function(event){
+          $('#myLinks').toggle();
+        });
 
 
 
 
 // ANIMATION SECTION 
+
 
   // BOUNCE EFFECTS! 
 
