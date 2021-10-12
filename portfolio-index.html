@@ -27,7 +27,7 @@
     <a href="#home" class="active"><i class="fas fa-laptop-code fa-lg"></i></a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-        <a href="#about-me">About</a>
+        <a href="#about-me" class="aboutNav">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -118,31 +118,32 @@
             <span class="contact-image"><i class="fas fa-mail-bulk fa-4x"></i></span>
             <h3 class="contact-title">Contact</h3>
         </div>
-            
-            <div class="contact-form">
-                <div class="form-container">
-                    <form action="action_page.php">
+        
+        <!-- CONTACT FORM -->
+    <div class="contact-form">
+        <div class="form-container">
+            <form action="action_page.php">
 
-                    <span class="form-name">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name">
-                    </span>
+            <span class="form-name">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            </span>
 
-                    <span class="form-email">
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email" placeholder="something@something.com">
-                    </span>
+            <span class="form-email">
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="someone@somewhere.com">
+            </span>
 
-                    <span class="form-message">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Don't be shy, send me a message!" style="height:200px"></textarea>
-                    <input type="submit" value="Send!">
-                    </span>
-                    </form>
-                 </div>
-              </div>
-
+            <span class="form-message">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Don't be shy, let's connect!" style="height:200px"></textarea>
+            <button type="submit" value="Send!">Send!</button>
+            </span>
+            </form>
+            </div>
         </div>
+
+</div>
 
     
         <!-- FOOTER  -->
@@ -155,6 +156,7 @@
     
     
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
         <script src="portfolio-script.js"></script>
 </body>
 </html>

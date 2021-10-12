@@ -340,9 +340,17 @@ SAND: #F2E2C6
 
         .contact-form {
             font-family: 'Poppins', sans-serif;
-            font-weight: 200;
+            font-weight: 500;
             background-color: #f7b352;
             padding: 40px; 
+            color: #B63666;
+        }
+
+        button {
+            font-weight: 400;
+            font-size: 16px;
+            border: 2px solid #B63666;
+            background-color: #e86892;
         }
 
         .form-container {
