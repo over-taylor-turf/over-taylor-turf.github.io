@@ -394,10 +394,10 @@ SAND: #F2E2C6
             left: 0;
             right: 0;
             text-align: center;
-            background-color: #0A3CC8;
+            background-color: #d18519;
             padding-top: 150px;
             padding-bottom: 100px;
-            padding: 150px 50px 100px 50px; /* This will need a lot of thought! */
+            padding: 100px 50px 100px 50px; /* This will need a lot of thought! */
             /* top: 10px;
             left: 10px;
             right: 10px;
@@ -406,15 +406,15 @@ SAND: #F2E2C6
 
           .quotes {
               text-align: center;
-              color: #d18519; 
-              font-size: 2.5em;
+              color: #0A3CC8; 
+              font-size: 2em;
               line-height: 130%;
           }
 
           .attributes {
               float: right;
               color: #B63666; 
-              font-size: 1.5em;
+              font-size: 1.4em;
           }
 
           .fa-quote-left {
@@ -425,8 +425,30 @@ SAND: #F2E2C6
             float: right;
         }
 
+        .helpme {
+            padding-top: 500px;
+            background-color: #d18519;
+        }
 
+        .testimonials-title {
+            text-align: center;
+            justify-self: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3.5em;
+            color: #B63666; 
+            padding: 65px 0;
+            background-color: #d18519; 
+        }
 
+        /* DARKER PINK: #9c0248
+        BRIGHTER PINK: #B63666
+        LIGHTER PINK: #e86892
+        LIGHTEST PINK: #ffcfde
+        
+        GOLD: #d18519
+        EGG YOLK: #f7b352
+        OFF WHITE: #fff6e3
+        SAND: #F2E2C6 */
 
 
 
@@ -578,8 +600,8 @@ SAND: #F2E2C6
 
     .big-nav {
         display: grid;
-        grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
-        font-size: 1.25em;
+        grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr;
+        font-size: 1.2em;
         padding: 15px;
         position: sticky;
         font-family: 'Poppins', sans-serif;
