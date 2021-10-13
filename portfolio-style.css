@@ -789,14 +789,12 @@ SAND: #F2E2C6
             .welcome {
                 font-size: 8em;
                 padding-top: 100px;
+                margin-top: 0;
+                margin-bottom: 0;
             }
     
             .one-liner {
-                font-size: 25px;
-            }
-    
-            .my-name-is-taylor {
-                font-size: 3em;
+                font-size: 2em;
             }
 
 /* ABOUT-ME SECTION */
