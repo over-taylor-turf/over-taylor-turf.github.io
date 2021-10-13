@@ -132,7 +132,7 @@ Will do in the future.
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-```
+```js
 function reverse(string) {
 	// here is the code to reverse a string of text
 }
@@ -161,13 +161,13 @@ And, I also found this StackOverflow article helpful:
 [Link](https://stackoverflow.com/questions/1291942/what-does-javascriptvoid0-mean)
 
 I also learned after some research online that the jQuery .toggle() function is actually toggling between the ```display: none``` and ```display: block```. 
-```
+```css
 .topnav #myLinks {
   display: none;
 }
 ```
 Because of this, I decided to use the function: 
-```
+```js
 $('.icon').on('click', function(event){
   event.preventDefault();
   $('.topnav #myLinks').toggle();
@@ -175,7 +175,7 @@ $('.icon').on('click', function(event){
 ```
 
 instead of W3Schools suggestion on their 'Mobile NavBar' page.
-```
+```js
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -192,7 +192,11 @@ I tried to experiment with the hamburger navigation as a ```<button>``` instead 
 <a href="#" class="icon"><i class="fa fa-bars"></i></a>
 ```
 
-## Case 2: Understanding Forms
+## Case 2: Button, MailTo, 
 
-For the contact form, I followed W3Schools suggestions as far as HTML elements:
-[Link](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+I deeply struggled with creating a contact form that would populate a Google Sheet with submitted info.
+This project was scrapped and instead I used a button to open a new, blank email message. 
+Several sites helped me: 
+Stack Overflow: [Link](https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open)
+CSS Tricks: [Link](https://css-tricks.com/snippets/html/mailto-links/)
+Plunker: [Link](https://embed.plnkr.co/plunk/J0LvQU)

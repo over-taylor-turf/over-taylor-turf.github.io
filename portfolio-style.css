@@ -68,7 +68,7 @@ SAND: #F2E2C6
   /* STYLE the navigation bar itself. */
   .active {
     background-color: #0A3CC8;
-    color: #0A3CC8;
+    color: #0A3CC8; 
   }
 
 
@@ -398,25 +398,43 @@ SAND: #F2E2C6
             color: #B63666;
         }
 
-        button {
-            font-weight: 400;
-            font-size: 16px;
-            border: 2px solid #B63666;
-            background-color: #e86892;
-            border-radius: 5px;
-            padding: 5px;
+        .connect {
+           font-size: 2em; 
+           padding-top: 30px;
+           padding-bottom: 50px;
+           text-align: center;
+           font-family: 'Bebas Neue', cursive;
         }
 
-        input[type=text], select, textarea {
-            width: 99%;
-            padding: 12px;
-            border: 1px solid #B63666;
-            border-radius: 5px;
-            box-sizing: border-box;
-            margin-top: 5px;
-            margin-bottom: 10px;
-          }
+        .message-me {
+            padding-bottom: 40px;
+            line-height: 150%;
+        }
 
+        button {
+            font-weight: 500;
+            font-size: 16px;
+            border: 2px solid #B63666;
+            background-color: #FCCCD4;
+            border-radius: 5px;
+            margin-bottom: 100px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .button a {
+            color: #B63666; 
+            font-weight: 500;
+        }
+
+        .button a:hover, button:hover {
+            background-color: #B63666;
+            color: #ffcfde;
+        }
+
+        .button {
+            text-align: center;
+        }
 
 
 
@@ -530,6 +548,13 @@ SAND: #F2E2C6
     background-color: #0A3CC8;
     color: #d18519;
   }
+  
+
+  div .fa-linkedin, div .fa-laptop-code {
+    float: left;
+  }
+
+
 
 
     /* HOME SECTION */
@@ -697,24 +722,36 @@ SAND: #F2E2C6
                 grid-column: 1 / 2; 
                 grid-row: 1 / 2; 
                 writing-mode: vertical-lr;
-                font-size: 5em;
+                font-size: 4em;
                 text-align: left;
             }
     
             .contact-form {
                 grid-column: 2 / 3; 
                 grid-row: 1 / 2;
-                margin-right: 30px;
-                margin-bottom: 30px;
+                margin-right: 50px;
+                margin-bottom: 50px;
             }
-    
+
+            
+            .connect {
+                font-size: 3em; 
+                padding-top: 50px;
+                padding-bottom: 30px;
+            }
+            
+            .message-me {
+                padding-bottom: 40px;
+                line-height: 150%;
+                font-size: 1em;
+            }
+            
             button {
+                font-size: 18px;
+                padding: 5px 15px;
             }
-    
-            input[type=text], select, textarea {
-                width: 100%;     /* ! */
-              }
-    
+
+
 
 /* FOOTER  */
 
@@ -801,6 +838,28 @@ SAND: #F2E2C6
     font-size: 1.75em;
 }
 
+/* CONTACT SECTION */
+
+.contact-title {
+    font-size: 5em;
+}
+
+.connect {
+    font-size: 3.5em; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.message-me {
+    padding-bottom: 60px;
+    line-height: 160%;
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 22px;
+    padding: 10px 20px;
+}
 
 /* FOOTER SECTION */
 
