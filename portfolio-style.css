@@ -191,8 +191,8 @@ SAND: #F2E2C6
 /* PROJECTS SECTION */
 #projects {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #F2E2C6;
     padding-top: 30px;
 }
@@ -203,10 +203,13 @@ SAND: #F2E2C6
             font-family: 'Poppins', sans-serif;
             font-weight: 300;
             padding-top: 20px;
+            font-weight: 500;
+            font-size: 2em; 
+            color: #0A3CC8;
         }
 
         .project-title {
-            grid-column: 1 / 2; 
+            grid-column: 1 / 4; 
             grid-row: 1 / 2;
             text-align: center;
             font-family: 'Bebas Neue', cursive;
@@ -220,20 +223,17 @@ SAND: #F2E2C6
         }
 
         .project1 {
-            grid-column: 1 / 2; 
+            grid-column: 1 / 4; 
             grid-row: 2 / 3;
-            font-weight: 500;
-            font-size: 2em; 
-            color: #0A3CC8;
         }
 
         .project2 {
-            grid-column: 1 / 2; 
+            grid-column: 1 / 4; 
             grid-row: 3 / 4;
         }
 
         .project3 {
-            grid-column: 1 / 2; 
+            grid-column: 1 / 4; 
             grid-row: 4 / 5;
         }
 
@@ -579,16 +579,39 @@ SAND: #F2E2C6
         }
 
 /* PROJECTS SECTION */
+#projects {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+}      
+
         .project1, .project2, .project3 {
-            padding: 40px 10px 20px 10px;
+            /* padding: 40px 10px 20px 10px; */
             font-weight: 400;
-            margin-bottom: 40px;
+            /* margin-bottom: 40px; */
         }
 
         .project-title {
             font-size: 60px;
             margin: 60px 0;
-            letter-spacing: 2.5px; 
+            letter-spacing: 2.5px;  */
+            grid-column: 1 / 4;
+            grid-row: 1 / 2;
+        }
+
+        .project1 {
+            grid-column: 1 / 2;
+            grid-row: 2 / 5;
+        }
+
+        .project2 {
+            grid-column: 2 / 3;
+            grid-row: 2 / 5;
+        }
+
+        .project3 {
+            grid-column: 3 / 4;
+            grid-row: 2 / 5;
         }
 
 /* SKILLS SECTION */
@@ -764,9 +787,9 @@ SAND: #F2E2C6
 /* PROJECTS SECTION */
 
 .project-title {
-    font-size: 80px;
+    /* font-size: 80px;
     margin: 80px 0;
-    letter-spacing: 3px; 
+    letter-spacing: 3px;  */
 }
 
 /* SKILLS SECTION */
