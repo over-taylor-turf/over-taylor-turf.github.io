@@ -375,6 +375,61 @@ SAND: #F2E2C6
             padding-top: 5px;
         }
 
+/* TESTIMONIAL SLIDESHOW SECTION */
+        #slideshow {
+            margin: 0 auto;
+            position: relative;
+            /* width: 100%;
+            height: 100%; */
+            /* padding: 10px; */
+            /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+          }
+          
+          #slideshow > div {
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background-color: #0A3CC8;
+            padding-top: 150px;
+            padding-bottom: 100px;
+            padding: 150px 50px 100px 50px; /* This will need a lot of thought! */
+            /* top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px; */
+          }
+
+          .quotes {
+              text-align: center;
+              color: #d18519; 
+              font-size: 2.5em;
+              line-height: 130%;
+          }
+
+          .attributes {
+              float: right;
+              color: #B63666; 
+              font-size: 1.5em;
+          }
+
+          .fa-quote-left {
+              float: left;
+          }
+
+          .fa-quote-right {
+            float: right;
+        }
+
+
+
+
+
+
 /* CONTACT SECTION */
 #contact {
     background-color: #F2E2C6;
