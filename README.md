@@ -192,7 +192,7 @@ I tried to experiment with the hamburger navigation as a ```<button>``` instead 
 <a href="#" class="icon"><i class="fa fa-bars"></i></a>
 ```
 
-## Case 2: Button, MailTo, 
+## Case 2: Button, MailTo 
 
 I deeply struggled with creating a contact form that would populate a Google Sheet with submitted info.
 This project was scrapped and instead I used a button to open a new, blank email message. 
@@ -200,3 +200,121 @@ Several sites helped me:
 Stack Overflow: [Link](https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open)
 CSS Tricks: [Link](https://css-tricks.com/snippets/html/mailto-links/)
 Plunker: [Link](https://embed.plnkr.co/plunk/J0LvQU)
+
+## Case 3: Button, MailTo 
+
+I spent a lot of time researching how to implement a carousel or slideshow for my testimonials section. 
+
+I also attempted to just have a .fadeIn / .fadeOut function, but could not make it work alongside an .active / .inactive class. 
+
+The resources that helped me with my testimonials slideshow are: 
+
+CSSTricks Article: [Link](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
+Chris Coyier Code Pen: [Link](https://codepen.io/chriscoyier/pen/zKbYzP)
+This StackOverflow article about centering a position:absolute element: [Link](https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element)
+
+I would like to note that this is the original CSS from Chris Coyier: 
+```css
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+```
+
+But I heavily edited it to be: 
+```css
+        #slideshow {
+            margin: 0 auto;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+          }
+          
+          #slideshow > div {
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background-color: #f7b352;
+            padding-top: 150px;
+            padding-bottom: 100px;
+            padding: 100px 50px 100px 50px;
+          }
+
+          .quotes {
+              text-align: center;
+              color: #0A3CC8; 
+              font-size: 2em;
+              line-height: 130%;
+          }
+
+          .attributes {
+              float: right;
+              color: #B63666; 
+              font-size: 1.4em;
+          }
+
+          .fa-quote-left {
+              float: left;
+          }
+
+          .fa-quote-right {
+            float: right;
+        }
+
+        .helpme {
+            padding-top: 500px;
+            background-color: #f7b352;
+        }
+
+        .testimonials-title {
+            text-align: center;
+            justify-self: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3.5em;
+            color: #B63666; 
+            padding: 65px 0;
+            background-color: #f7b352; 
+        }
+
+
+```
+One strategy I learned is to mute every line of code I don't understand and then add them back to see what their actual effect is. 
+If there are lines that I still do not understand, I leave them muted and try to write my own code. 
+I also had to add a lot of extra things to this slideshow in order to get my text to display as desired. 
+
+As for the JavaScript... 
+```js
+
+      $("#slideshow > div:gt(0)").hide();
+
+            setInterval(function() {
+              $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+            }, 3000);
+
+```
+
+I learned a lot from this. I did not know that the > symbol selects the children when used in the CSS selector. 
+I also had to research what `:gt()` was, and I learned from W3 schools that it just basically saying +1 to the index of an item.
+
