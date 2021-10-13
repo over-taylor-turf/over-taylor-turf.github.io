@@ -394,7 +394,7 @@ SAND: #F2E2C6
             left: 0;
             right: 0;
             text-align: center;
-            background-color: #d18519;
+            background-color: #f7b352;
             padding-top: 150px;
             padding-bottom: 100px;
             padding: 100px 50px 100px 50px; /* This will need a lot of thought! */
@@ -427,7 +427,7 @@ SAND: #F2E2C6
 
         .helpme {
             padding-top: 500px;
-            background-color: #d18519;
+            background-color: #f7b352;
         }
 
         .testimonials-title {
@@ -437,7 +437,7 @@ SAND: #F2E2C6
             font-size: 3.5em;
             color: #B63666; 
             padding: 65px 0;
-            background-color: #d18519; 
+            background-color: #f7b352; 
         }
 
         /* DARKER PINK: #9c0248
