@@ -69,27 +69,8 @@
       });
     
 
-      // TESTIMONIALS 
 
-      // practice with fades 
-
-      // $('#testimonial1').on('click', function(event){
-      //   $('#testimonial1').fadeToggle('slow');
-      // });
-
-      
-      // $("button").click(function(){
-      //   $("p").hide(1000);
-      // });
-
-      // $('#testimonial1').on('click', function(event){
-      //   $('#testimonial1').hide(1000);
-      // });
-      
-      // $('#testimonial1').on('click', function(event){
-      //   $('#testimonial1').fadeOut('slow');
-      // });
-
+  // TESTIMONIALS SLIDE SHOW
 
       $("#slideshow > div:gt(0)").hide();
 
