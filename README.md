@@ -1,7 +1,9 @@
 # Portfolio
 🎉 Welcome to my dev portfolio website! 🎉
-➡️ Here is my website: [Link](over-taylor-turf.github.io/)
-➡️ Here is my repo: [Link](https://github.com/over-taylor-turf/over-taylor-turf.github.io)
+
+Here is my website: [Link](over-taylor-turf.github.io/)
+
+Here is my repo: [Link](https://github.com/over-taylor-turf/over-taylor-turf.github.io)
 
 # Project Overview
 
