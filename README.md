@@ -274,6 +274,12 @@ Notice anything?
 
 My error was very simple. Instead of writing `grid-column: # / #` and `grid-row: # / #`, I was actually redefining the grid each time! With repeated `grid-template-columns` and `grid-template-rows`! 🤦🏼‍♀️
 
+#### Case 3: Favicon Display
+**Issue**: I had some trouble with my favicon displaying in chrome. At first, I thought it had to with where I was placing the tags within the `<head>`, but then Jason alerted me to the fact that it was viewable in Safari, just not Chrome.
+
+**Resolution**:
+This [StackOverflow article](https://stackoverflow.com/questions/16375592/favicon-not-showing-up-in-google-chrome) was very helpful. As I learned that other people have had issues with Chrome displaying their favicons. I cleared my cache as one commenter suggested and it worked! 
+
 
 ## Citations of Outside Sources / Help 🙌
 
