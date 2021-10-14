@@ -1,5 +1,7 @@
-# portfolio
-Welcome to my dev portfolio website! 
+# Portfolio
+🎉 Welcome to my dev portfolio website! 🎉
+➡️ Here is my website: [Link](over-taylor-turf.github.io/)
+➡️ Here is my repo: [Link](https://github.com/over-taylor-turf/over-taylor-turf.github.io)
 
 # Project Overview
 
@@ -17,9 +19,9 @@ Welcome to my dev portfolio website!
 |Day 3| Tuesday, October 12th: CSS: ⭐️ Start responsive Desktop view edits.  | Complete ✅
 |Day 3| Tuesday, October 12th: ⭐️ Meet with Zakiya to help refine personal brand statement and short bio, included these items in HTML. | Complete ✅
 |Day 4| Wednesday, October 13th: ⭐️ Start jQuery/JavaScript animation work. | Complete ✅
-|Day 4| Wednesday, October 13th: ⭐️ Add in projects to Projects section. | Incomplete ❌
-|Day 4| Wednesday, October 13th: ⭐️ Start Carousel work. | Incomplete ❌
-|Day 5| Thursday, October 14th: ⭐️ Troubleshoot Carousel and animation work.  | Incomplete ❌
+|Day 4| Wednesday, October 13th: ⭐️ Add in projects to Projects section. | Complete ✅
+|Day 4| Wednesday, October 13th: ⭐️ Slideshow. | Complete ✅
+|Day 5| Thursday, October 14th: ⭐️ Troubleshoot any remaining bugs. Complete this readme file.  |  Complete ✅
 |Day 6| Friday, October 15th: Present & Celebrate  | Finish Line 🎉
 
 
@@ -54,9 +56,9 @@ Time/Priority Matrix: [Link](https://res.cloudinary.com/overturf/image/upload/v1
 |D| Linking all files, understanding GitHub... | MVP 🥊
 |E| HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer| MVP 🥊 ✅
 |F| Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section| Post-MVP 🤞 ✅
-|G| Projects: Get projects organized, choose a few to include in site. | MVP 🥊
-|H| Carousel Style Projects Display| Post-MVP 🤞
-|I| Contact Form Functionality | Post-MVP 🤞
+|G| Projects: Get projects organized, choose a few to include in site. | MVP 🥊 ✅
+|H| Carousel Style Projects Display| Post-MVP 🤞 ❌
+|I| Contact Form Functionality | Post-MVP 🤞 ❌
 |J| Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills | Post-MVP 🤞 ✅
 |K| Insert photo in About Me section!| Post-MVP 🤞 ✅
 |L| Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design).| MVP 🥊 ✅
@@ -73,17 +75,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Hamburger Navigation Bar ✅
 - Animations on Welcome Message ✅
 - CSS Page Layout ✅
-- Linking all files, understanding GitHub... 
+- Linking all files, understanding GitHub... ✅
 - HTML Page Layout for Nav Bar, Home, About Me, Projects, Skills, Contact, Footer ✅
-- Projects: Get projects organized, choose a few to include in site.
+- Projects: Get projects organized, choose a few to include in site. ✅
 - Edit layout to allow for more white space and centering in Desktop view. (Mobile-first design). ✅
 - Literally just getting started and doing this worksheet and planning and thinking... ✅
 
 #### PostMVP Items ✅
 
 - Find/Insert Icons for Skills Section + Find/Insert Icon for Nav Bar Left + Find/Insert Envelope Icon for Contact Section ✅
-- Carousel Style Projects Display
-- Contact Form Functionality
+- Carousel Style Projects Display ❌
+- Contact Form Functionality ❌
 - Animations on Projects (if possible in conjunction with Carousel or just in Desktop Grid view) or Skills ✅
 - Insert photo in About Me section! ✅
 
@@ -98,23 +100,22 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | HTML: About Me | E | 1hr | 1hr ✅ |
 | HTML: Skills | E | 30mins | 1hr ✅ |
 | HTML: Project | E | 30mins | 1hr ✅ |
-| HTML: Contact Form | E | 1.5hr | hr |
+| HTML: Contact Form | E | 1.5hr | 1hr ✅ |
 | HTML: Footer | E | 30mins | 1hr ✅ |
-| CSS: Overall Design | C | 4hrs | hr |
+| CSS: Overall Design | C | 4hrs | 8hrs ✅ |
 | CSS: Classes & ID's | C | 1hr | 1hr ✅ |
 | CSS: Grid | C | 4hrs | 3hrs ✅ |
-| CSS: Tablet & Desktop View | C | 3hrs | 4hrs ✅ |
-| Animations | B | 2hrs | 3hr ✅ |
-| Projects: Decide on assignments to include. | G | 2hrs | hr |
-| Projects: Update projects. | G | 3hrs | hr |
-| Projects: Link/include projects in site. | G | 2hrs | hr |
+| CSS: Tablet & Desktop View | C | 3hrs | 6hrs ✅ |
+| Animations | B | 2hrs | 3hrs ✅ |
+| Projects: Decide on assignments to include. | G | 2hrs | hr ✅ |
+| Projects: Link/include projects in site. | G | 2hrs | 2hrs ✅ |
 
 
 #### PostMVP ✅
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Carousel Style| H | 3hrs | hr |
-| Contact Form Functionality | I | 3hrs | hr |
+| Carousel Style| H | 3hrs | 2hrs ❌|
+| Contact Form Functionality | I | 3hrs | 3hrs ❌|
 | Icons: find icons I want to use! | F | 1hr | 1hr ✅ |
 | Icons: add to nav bar. | F | 30mins | 1hr ✅ |
 | Icons: add to skills section. | F | 2hrs | 2hrs ✅ |
@@ -122,35 +123,157 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Additional Libraries ✅
 
-I definitely want to learn about and get practice in Bootstrap for this project. 
+I definitely want to learn about and get practice in Bootstrap for this project. ❌ (Update: I created a very intense CSS Grid before learning about the specifics of Bootstrap and felt I could not make Bootstrap work without deleting a lot of my hard work. I also wanted to get more practice doing a lot of the coding by myself instead of copying and pasting what Bootstrap has to offer. In the future, I will definitely use it, but not for this project!)
 
-I also want to use FontAwesome for my icons. 
+I also want to use FontAwesome for my icons. ✅ (Update: FontAweseom proved very helpful and I learned a lot about the `<i>` tag!)
 
-## Code Snippet ❌
+## Code Snippets ✅
 
-Will do in the future. 
+Here are some code snippets that I feel proud of! 🤗
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+I am proud of my organization here in my HMTL of the icons, text, and attributed name. I originally just created these "testimonials" as [slides](https://docs.google.com/presentation/d/1DgE7cblrkF_aLyCffqiZKk0jjIsy4x5fcTHWuS4p6l4/edit?usp=sharing) and took a screen shot to make them into images to display in my slideshow. Then, I remembered that I am a developer and I can make it myself! Additionally, you will notice the final line, `<div class="helpme"></div>`, the purpose of this div is to solve a specific issue: the slide show has a `position: absolute` in the CSS which causes it to overlap onto the contact section. I solved this problem by creating this "helpme" `<div>` to provide a background and spacing. 
+```html
 
+<div id="testimonials" class="testimonials-title"><h3>Testimonials</h3></div>
+<div id="slideshow">
+    <div class="testimonials">
+        <i class="fas fa-quote-left fa-2x"></i><br>
+        <p class="quotes">Fake quote about how amazing Taylor is.</p><br>
+        <i class="fas fa-quote-right fa-2x"></i><br><br><br>
+        <p class="attributes">—Fake Person Name</p>
+    </div>
+
+    <div class="testimonials">
+        <i class="fas fa-quote-left fa-2x"></i><br>
+        <p class="quotes">“More words explaining why Taylor should get hired by you.”</p><br>
+        <i class="fas fa-quote-right fa-2x"></i><br><br><br>
+        <p class="attributes">—Fakey McFakerson</p>
+    </div>
+
+    <div class="testimonials">
+        <i class="fas fa-quote-left fa-2x"></i><br>
+        <p class="quotes">“Truly amazing!”</p><br>
+        <i class="fas fa-quote-right fa-2x"></i><br><br><br>
+        <p class="attributes">—A Fake Coworker’s Name </p>
+    </div>
+
+    <div class="testimonials">
+        <i class="fas fa-quote-left fa-2x"></i><br>
+        <p class="quotes">“More words explaining why Taylor should get hired by you.”</p><br>
+        <i class="fas fa-quote-right fa-2x"></i><br><br><br>
+        <p class="attributes">—Fake Fakeburg</p>
+    </div>
+</div>
+
+      <div class="helpme"></div>
+
+```
+
+Of my three children (HTML, CSS, and JavaScript), CSS is my favorite (don't tell the others). As such, there are many lines of my CSS code that I am proud of. I spent the most time in my CSS file. For example, I am proud of the different Grid layouts I created for each section of my webpage. I am proud of the `:hover` effects I created for many of my sections as well. Most of all, I am proud of one very key decision I made early on in regards to designing my webpage. I spent a long time thinking about a color scheme, looked at some online palette generators, but ultimately build the color scheme from the ground up with the [image](http://res.cloudinary.com/overturf/image/upload/v1633966172/IMG-3349_bue4kq.jpg) I chose of myself. I used the color picker extension on my browser to extract specific hexcodes from this single image: the royal blue background, the hot pink on my glasses, some creams and yellows literally from my hair. This provided the color palette for my entire site and I kept these hexcodes at the top of my CSS to easily draw upon! 
+
+```css
+
+/* COLORS -- here are where my specific hex-codes go for this project. 
+
+ROYAL BLUE: #0A3CC8
+
+DARKER PINK: #9c0248
+BRIGHTER PINK: #B63666
+LIGHTER PINK: #e86892
+LIGHTEST PINK: #ffcfde
+
+GOLD: #d18519
+EGG YOLK: #f7b352
+OFF WHITE: #fff6e3
+SAND: #F2E2C6
+
+*/
+
+```
+
+I am so proud of this  very simple animation. I wrote this function completely independently and it did not work for the longest time. Little did I know it was because I just needed another script link to a UI jQuery library. My function was completely functional the whole time! 
 ```js
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+
+  $('.welcome').on('click', function(event){
+    $('.welcome').effect( 'bounce', {times: 5}, 'slow' );
+  });
+
 ```
 
 ## Issues and Resolutions ❌
  
- Will do in the future. 
+ Many of my issues and resolutions were captured by the issue tickets I opened while working on my portfolio. 
  
- Use this section to list of all major issues encountered and their resolution.
- 
- #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+ #### Case 1: Dropdown Menu Functionality
+**Issue**: Hamburger drop down will only toggle upon clicking the icon, and not the links as well. In other words, I wanted the dropdown menu to disappear not only upon clicking the hamburger again, but also upon making a navigational selection.
+
+```js
+
+$('.icon').on('click', function(event){
+  event.preventDefault();
+  $('#myLinks').toggle();
+});
+
+```                     
+**Resolution**: I added a second function to also add the toggle function to the links in the dropdown (called `#myLinks`) as well as the hamburger icon (called `.icon`). I also deleted the `event.preventDefault();` line of code because it was preventing my dropdown menu functionality as well! 
+```js
+
+$('.icon').on('click', function(event){
+  $('#myLinks').toggle();
+});
+
+$('#myLinks').on('click', function(event){
+  $('#myLinks').toggle();
+});
+
+```
+
+#### Case 2: CSS Grid of Projects Section
+**Issue**: I had one specific section of my site that was not responding responsively from mobile to desktop view: the "Projects" section. I would like the three projects to be stacked vertically in mobile view, and sit horizontally in a row in desktop view.
+
+**Resolution**:
+Here is my original CSS code block for the tablet/desktop responsive view: 
+```css
+
+/* PROJECTS SECTION */
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}      
+
+        .project1, .project2, .project3 {
+            font-weight: 400;
+        }
+
+        .project-title {
+            font-size: 60px;
+            grid-template-columns: 1 / 4;
+            grid-template-rows: 1 / 2;
+        }
+
+        .project1 {
+            grid-template-columns: 1 / 2;
+            grid-template-rows: 2 / 5;
+        }
+
+        .project2 {
+            grid-template-columns: 2 / 3;
+            grid-template-rows: 2 / 5;
+        }
+
+        .project3 {
+            grid-template-columns: 3 / 4;
+            grid-template-rows: 2 / 5;
+        }
+
+```
+Notice anything? 
+
+My error was very simple. Instead of writing `grid-column: # / #` and `grid-row: # / #`, I was actually redefining the grid each time! With repeated `grid-template-columns` and `grid-template-rows`! 🤦🏼‍♀️
 
 
-
-## Citations of Outside Sources / Help 
+## Citations of Outside Sources / Help 🙌
 
 ## Case 1: Hamburger Dropdown Menu
 
@@ -160,22 +283,29 @@ For the hamburger dropdown menu, I followed W3Schools suggestions:
 And, I also found this StackOverflow article helpful: 
 [Link](https://stackoverflow.com/questions/1291942/what-does-javascriptvoid0-mean)
 
-I also learned after some research online that the jQuery .toggle() function is actually toggling between the ```display: none``` and ```display: block```. 
+I  learned after some research online that the jQuery .toggle() function is actually toggling between the ```display: none``` and ```display: block```. This was revolutionary for my understanding of how to build my function. 
+
 ```css
+
 .topnav #myLinks {
   display: none;
 }
+
 ```
+
 Because of this, I decided to use the function: 
 ```js
+
 $('.icon').on('click', function(event){
   event.preventDefault();
   $('.topnav #myLinks').toggle();
 });
+
 ```
 
 instead of W3Schools suggestion on their 'Mobile NavBar' page.
 ```js
+
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -184,24 +314,29 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
 ```
 
 I tried to experiment with the hamburger navigation as a ```<button>``` instead of a ```<a>```, but I found that the styling because much worse due to the default styling of buttons, so I abandoned this plan! 
 
-```
+```html
+
 <a href="#" class="icon"><i class="fa fa-bars"></i></a>
+
 ```
 
 ## Case 2: Button, MailTo 
 
-I deeply struggled with creating a contact form that would populate a Google Sheet with submitted info.
-This project was scrapped and instead I used a button to open a new, blank email message. 
+I deeply struggled with creating a contact form that would populate a Google Sheet with submitted info. This project was scrapped and instead I used a button to open a new, blank email message. 
+
 Several sites helped me: 
 Stack Overflow: [Link](https://stackoverflow.com/questions/21461589/javascript-mailto-using-window-open)
 CSS Tricks: [Link](https://css-tricks.com/snippets/html/mailto-links/)
 Plunker: [Link](https://embed.plnkr.co/plunk/J0LvQU)
 
-## Case 3: Button, MailTo 
+I found this route to align more with my current understandings, so I felt much more comfortable.
+
+## Case 3: Slideshow
 
 I spent a lot of time researching how to implement a carousel or slideshow for my testimonials section. 
 
@@ -315,6 +450,6 @@ As for the JavaScript...
 
 ```
 
-I learned a lot from this. I did not know that the > symbol selects the children when used in the CSS selector. 
-I also had to research what `:gt()` was, and I learned from W3 schools that it just basically saying +1 to the index of an item.
+I learned a lot from this. I did not know that the > symbol selects the children when used in the CSS selector.
 
+I also had to research what `:gt()` was, and I learned from W3 schools that it just basically saying +1 to the index of an item.
