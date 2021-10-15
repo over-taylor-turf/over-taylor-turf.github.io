@@ -1,4 +1,6 @@
 
+/* Default Font Settings */
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -72,7 +74,10 @@ SAND: #F2E2C6
   }
 
 
+
+
 /* GRID --  This is the mobile (base) grid styling of my page. */
+
 
 /* HOME SECTION */
 #hello {
@@ -126,6 +131,7 @@ SAND: #F2E2C6
             grid-row: 3 / 4;
             align-items: stretch;
         }
+
 
 /* ABOUT-ME SECTION */
 #about-me {
@@ -188,6 +194,8 @@ SAND: #F2E2C6
             line-height: 150%;
         }
 
+
+
 /* PROJECTS SECTION */
 #projects {
     display: grid;
@@ -247,6 +255,8 @@ SAND: #F2E2C6
 
         }
 
+
+
 /* SKILLS SECTION */
 #skills {
     display: grid;
@@ -271,7 +281,7 @@ SAND: #F2E2C6
             color: #0A3CC8; 
         }
 
-        /* SKILLS ICONS STYLING  */
+        /* SKILLS ICONS STYLING + HOVER STYLING */
         #html {
             grid-column: 1 / 2; 
             grid-row: 2 / 3;
@@ -375,14 +385,12 @@ SAND: #F2E2C6
             padding-top: 5px;
         }
 
+
+
 /* TESTIMONIAL SLIDESHOW SECTION */
         #slideshow {
             margin: 0 auto;
             position: relative;
-            /* width: 100%;
-            height: 100%; */
-            /* padding: 10px; */
-            /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
             font-family: 'Poppins', sans-serif;
             font-weight: 400;
           }
@@ -397,11 +405,7 @@ SAND: #F2E2C6
             background-color: #f7b352;
             padding-top: 150px;
             padding-bottom: 100px;
-            padding: 100px 50px 100px 50px; /* This will need a lot of thought! */
-            /* top: 10px;
-            left: 10px;
-            right: 10px;
-            bottom: 10px; */
+            padding: 100px 50px 100px 50px; 
           }
 
           .quotes {
@@ -506,7 +510,6 @@ SAND: #F2E2C6
 
 
 /* FOOTER  */
-
 #footer {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -566,7 +569,7 @@ SAND: #F2E2C6
         color: #B63666;
     }
 
-  /* HIDE THE HOT DOG NAV BAR */
+/* HIDE THE HOT DOG NAV BAR */
     .big-nav {
         display: none;
     }
@@ -575,7 +578,7 @@ SAND: #F2E2C6
 
 
   
-    /*  ! ! ! ! ! ! !  RESPONSIVE DESIGN BREAK POINT ! ! ! ! ! ! !  */
+/*  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! RESPONSIVE DESIGN BREAK POINT ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !*/
   
     /* TABLET */
 @media only screen and (min-width: 768px) {
@@ -623,7 +626,6 @@ SAND: #F2E2C6
 
 
 
-
     /* HOME SECTION */
     #hello {
     display: grid;
@@ -650,6 +652,7 @@ SAND: #F2E2C6
         }
 
 
+
 /* ABOUT-ME SECTION */
         .headshot {
             border: 5px solid #B63666;
@@ -669,6 +672,8 @@ SAND: #F2E2C6
             padding: 20px 60px;
             line-height: 175%;
         }
+
+
 
 /* PROJECTS SECTION */  
 #projects {
@@ -702,6 +707,8 @@ SAND: #F2E2C6
             grid-column: 3 / 4;
             grid-row: 2 / 5;
         }
+
+
 
 /* SKILLS SECTION */
 #skills {
@@ -776,7 +783,9 @@ SAND: #F2E2C6
             font-size: 1.35em;
         }
 
-    /* CONTACT SECTION */
+
+
+/* CONTACT SECTION */
 
     #contact {
         display: grid;
@@ -800,7 +809,6 @@ SAND: #F2E2C6
                 margin-bottom: 50px;
             }
 
-            
             .connect {
                 font-size: 3em; 
                 padding-top: 50px;
@@ -848,21 +856,27 @@ SAND: #F2E2C6
 
 }
 
+
+
+/*  ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! RESPONSIVE DESIGN BREAK POINT ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !*/
+
 /* DESKTOP */
+
 @media only screen and (min-width: 992px) {
 
-    /* HOME SECTION */
+/* HOME SECTION */
 
-            .welcome {
-                font-size: 8em;
-                padding-top: 100px;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-    
-            .one-liner {
-                font-size: 2em;
-            }
+        .welcome {
+            font-size: 8em;
+            padding-top: 100px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .one-liner {
+            font-size: 2em;
+        }
+
 
 /* ABOUT-ME SECTION */
         .headshot {
@@ -885,46 +899,49 @@ SAND: #F2E2C6
 
 /* PROJECTS SECTION */
 
-.project-title {
-    font-size: 80px;
-    margin: 80px 0;
-    letter-spacing: 3px; 
-}
+        .project-title {
+            font-size: 80px;
+            margin: 80px 0;
+            letter-spacing: 3px; 
+        }
+
 
 /* SKILLS SECTION */
 
-.skills-title {
-    font-size: 80px;
-    margin: 80px 0;
-    letter-spacing: 3px; 
-}
+        .skills-title {
+            font-size: 80px;
+            margin: 80px 0;
+            letter-spacing: 3px; 
+        }
 
-#html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
-    font-size: 1.75em;
-}
+        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
+            font-size: 1.75em;
+        }
+
 
 /* CONTACT SECTION */
 
-.contact-title {
-    font-size: 5em;
-}
+        .contact-title {
+            font-size: 5em;
+        }
 
-.connect {
-    font-size: 3.5em; 
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
+        .connect {
+            font-size: 3.5em; 
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
 
-.message-me {
-    padding-bottom: 60px;
-    line-height: 160%;
-    font-size: 1.5em;
-}
+        .message-me {
+            padding-bottom: 60px;
+            line-height: 160%;
+            font-size: 1.5em;
+        }
 
-button {
-    font-size: 22px;
-    padding: 10px 20px;
-}
+        button {
+            font-size: 22px;
+            padding: 10px 20px;
+        }
+
 
 /* FOOTER SECTION */
 
