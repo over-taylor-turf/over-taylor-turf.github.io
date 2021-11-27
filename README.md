@@ -1,9 +1,11 @@
 # Portfolio
-🎉 Welcome to my dev portfolio website! 🎉
+🎉 Welcome to my first, ever website as a developer! 🎉
+🚨 This website has been kept largely untouched, besides updating some links and photos in the 'projects' section. There are many, many improvements that could be made, in theory, to this vanilla JavaScript, CSS, HTML masterpiece 😂 but I am leaving it as a reminder of how far I've come as a developer. 
 
-Here is my website: [Link](over-taylor-turf.github.io/)
 
-Here is my repo: [Link](https://github.com/over-taylor-turf/over-taylor-turf.github.io)
+Website: [Link](over-taylor-turf.github.io/)
+
+Repo: [Link](https://github.com/over-taylor-turf/over-taylor-turf.github.io)
 
 
 # Project Overview
