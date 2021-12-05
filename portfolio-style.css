@@ -81,6 +81,7 @@ SAND: #F2E2C6
 
 /* HOME SECTION */
 #hello {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1.5fr 1.5fr 1fr;
@@ -98,8 +99,8 @@ SAND: #F2E2C6
             grid-row: 1 / 2;
             font-family: 'Permanent Marker', cursive;
             color: #B63666; 
-            font-size: 3.5em;
-            padding-top: 40px;
+            font-size: 5em;
+            padding-top: 50px;
         }
 
         .one-liner {
@@ -109,8 +110,8 @@ SAND: #F2E2C6
             font-weight: 300;
             font-size: 1.3em;
             line-height: 140%;
-            padding-top: 40px;
-            padding-bottom: 50px;
+            padding-top: 20px;
+            padding-bottom: 30px;
             margin-left: 15px; 
             margin-right: 15px; 
         }
