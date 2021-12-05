@@ -256,9 +256,9 @@ SAND: #F2E2C6
         }
 
         .linktext {
-            font-weight: 500;
-            color: black;
-            font-size: 1.5em;
+            font-weight: 500 !important;
+            color: black !important;
+            font-size: 1.5em !important;
         }
 
 
