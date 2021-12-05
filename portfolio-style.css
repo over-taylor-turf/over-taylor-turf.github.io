@@ -255,6 +255,12 @@ SAND: #F2E2C6
 
         }
 
+        .linktext {
+            font-weight: 500;
+            color: black;
+            font-size: 1.5em;
+        }
+
 
 
 /* SKILLS SECTION */
@@ -318,12 +324,12 @@ SAND: #F2E2C6
                     color: #0A3CC8;
                 }
 
-        #bootstrap {
+        #react {
             grid-column: 2 / 3; 
             grid-row: 3 / 4;
         }
 
-                #bootstrap:hover, .fa-bootstrap:hover {
+                #react:hover, .fa-react:hover {
                     color: #0A3CC8;
                 }
 
@@ -336,30 +342,30 @@ SAND: #F2E2C6
                     color: #0A3CC8;
                 }
 
-        #github {
+        #mongoose {
             grid-column: 1 / 2; 
             grid-row: 4 / 5;
         }
 
-                #github:hover, .fa-github:hover {
+                #mongoose:hover, .fa-server:hover {
                     color: #0A3CC8;
                 }
 
-        #vscode {
+        #mongodb {
             grid-column: 2 / 3; 
             grid-row: 4 / 5;
         }
 
-                #vscode:hover, .fa-code:hover {
+                #mongodb:hover, .fa-database:hover {
                     color: #0A3CC8;
                 }
 
-        #commandline {
+        #python {
             grid-column: 3 / 4; 
             grid-row: 4 / 5;
         }
 
-                #commandline:hover, .fa-terminal:hover {
+                #python:hover, .fa-python:hover {
                     color: #0A3CC8;
                 }
 
@@ -371,7 +377,7 @@ SAND: #F2E2C6
                     color: #0A3CC8;
                 }
 
-        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
+        #html, #css, #javascript, #node, #react, #git, #mongoose, #mongodb, #python, #secret {
             margin-top: 10px;
             margin-bottom: 10px;
             list-style-type: none;
@@ -746,7 +752,7 @@ SAND: #F2E2C6
             grid-row:  2 / 3;
         }
 
-        #bootstrap {
+        #react {
             grid-column: 5 / 6; 
             grid-row:  2 / 3;
         }
@@ -756,17 +762,17 @@ SAND: #F2E2C6
             grid-row: 3 / 4;
         }
 
-        #github {
+        #mongoose {
             grid-column: 2 / 3; 
             grid-row: 3 / 4;
         }
 
-        #vscode {
+        #mongodb {
             grid-column: 3 / 4; 
             grid-row: 3 / 4;
         }
 
-        #commandline {
+        #python {
             grid-column: 4 / 5; 
             grid-row: 3 / 4;
         }
@@ -777,7 +783,7 @@ SAND: #F2E2C6
             grid-row: 3 / 4;
         }
 
-        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
+        #html, #css, #javascript, #node, #react, #git, #mongoose, #mongodb, #python, #secret {
             margin-top: 5px;
             margin-bottom: 5px;
             font-size: 1.35em;
@@ -914,7 +920,7 @@ SAND: #F2E2C6
             letter-spacing: 3px; 
         }
 
-        #html, #css, #javascript, #node, #bootstrap, #git, #github, #vscode, #commandline, #secret {
+        #html, #css, #javascript, #node, #react, #git, #mongoose, #mongodb, #python, #secret {
             font-size: 1.75em;
         }
 
