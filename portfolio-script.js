@@ -44,24 +44,24 @@
         $('#node').effect('shake', {times: 2, distance: 10}, 450);
       });
 
-      $('#bootstrap').on('click', function(event){
-        $('#bootstrap').effect('shake', {times: 2, distance: 10}, 450);
+      $('#react').on('click', function(event){
+        $('#react').effect('shake', {times: 2, distance: 10}, 450);
       });
 
       $('#git').on('click', function(event){
         $('#git').effect('shake', {times: 2, distance: 10}, 450);
       });
 
-      $('#github').on('click', function(event){
-        $('#github').effect('shake', {times: 2, distance: 10}, 450);
+      $('#mongoose').on('click', function(event){
+        $('#mongoose').effect('shake', {times: 2, distance: 10}, 450);
       });
 
-      $('#vscode').on('click', function(event){
-        $('#vscode').effect('shake', {times: 2, distance: 10}, 450);
+      $('#mongodb').on('click', function(event){
+        $('#mongodb').effect('shake', {times: 2, distance: 10}, 450);
       });
 
-      $('#commandline').on('click', function(event){
-        $('#commandline').effect('shake', {times: 2, distance: 10}, 450);
+      $('#python').on('click', function(event){
+        $('#python').effect('shake', {times: 2, distance: 10}, 450);
       });
 
       $('#secret').on('click', function(event){
